@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    font-size: 40px; 
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+    color: white;
+}
+
+.titler{
+    font-size: 40px;
+    width: 100%;
+    padding-top: 30px;
+
+    padding-right: 20px;
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.titlel{
+    font-size: 40px; 
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+.disney{
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(shapka.jpg);
+    
+}
+
+
+
+
+h2{ /*    CAST    */
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.endsection{
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    height: 650px;
+    background-image: url(bgheader.png);
+
+}
+
+.section{
+    padding-top: 0px;
+    margin: auto;
+    width: 100%;
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(bginfinity.jpg);
+}
+
+.swsection{
+    padding-top: 0px;
+    margin: auto;
+    width: 100%;
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(sw.jpg);
+}
+
+
+.lionking{
+    padding-top: 0px;
+    margin: auto;
+    width: 100%;
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(lk.jpg);
+}
+
+.frozen{
+    padding-top: 0px;
+    margin: auto;
+    width: 100%;
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(frozenbg.jpg);
+}
+
+
+
+
+.plotl{    /*контент финала*/
+    color: white;
+    text-align: left;
+    padding: 20px;
+    line-height:  25px;
+    text-shadow: 2px 2px black;
+}
+
+
+.plotr{ /*контент вб*/
+    color: white;
+    text-align: right;
+    padding: 20px;
+    line-height:  25px;
+    text-shadow: 2px 2px black;
+}
+
+
+
+
+.linktr{
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+cast{
+
+    background: rgba(158,14,112,1);
+    background: -moz-linear-gradient(left, rgba(158,14,112,1) 0%, rgba(102,0,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(158,14,112,1)), color-stop(100%, rgba(102,0,255,1)));
+    background: -webkit-linear-gradient(left, rgba(158,14,112,1) 0%, rgba(102,0,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(158,14,112,1) 0%, rgba(102,0,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(158,14,112,1) 0%, rgba(102,0,255,1) 100%);
+    background: linear-gradient(to right, rgba(158,14,112,1) 0%, rgba(102,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0e70', endColorstr='#6600ff', GradientType=1 );
+
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 100px ;
+    padding-left: 100px ;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+swcast{
+
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(6,6,6,1) 100%);
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 100px ;
+    padding-left: 100px ;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+iwcast{
+    background: rgb(79,0,65);
+    background: linear-gradient(90deg, rgba(79,0,65,1) 0%, rgba(255,88,16,1) 50%, rgba(255,0,0,1) 100%);
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 100px ;
+    padding-left: 100px ;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+lkcast{
+    background: rgb(255,88,16);
+    background: linear-gradient(90deg, rgba(255,88,16,1) 0%, rgba(255,0,0,1) 100%);
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 10px ;
+    padding-left: 10px ;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rama{
+    width: 150px;
+    height: 350px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px 1px black ;
+}
+
+.rama:hover{
+    transform: scale(1.07);
+}
+
+.lkrama{
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px 1px black ;
+}
+
+.lkrama:hover{
+    transform: scale(1.07);
+}
+
+.swrama{
+    width: 150px;
+    height: 350px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px 1px rgba(52,0,0,100);
+}
+
+.swrama:hover{
+    transform: scale(1.07);
+}
+
+
+
+.ironman{
+
+    background-image: url(ironman.jpg);
+}
+
+.thor{
+    background-image: url(thor.jpg);
+}
+
+.cap{
+    background-image: url(ca.jpg);
+
+    
+}
+
+.bw{
+    background-image: url(bw.jpeg);
+    
+}
+
+.heye{
+    background-image: url(hkeye.jpg);
+}
+
+.hulk{
+    background-image: url(hulk.jpg);
+}
+
+.bman{
+    background-image: url(rddy.jpg);
+}
+
+.fl{
+    background-image: url(falcon.jpg);
+}
+
+.bck{
+    background-image: url(bcky.jpg);
+}
+
+.sman{
+    background-image: url(sp.jpg);
+}
+
+.vis{
+    background-image: url(vision.jpg);
+}
+
+.bpn{
+    background-image: url(bp.jpg);
+}
+
+.thanos{
+    background-image: url(thanos.png);
+}
+
+/* SWWWWWW*/
+
+.rey{
+    background-image: url(rey.jpg);
+}
+
+.finn{
+    background-image: url(finn.jpg);
+}
+
+.han{
+    background-image: url(han.jpg);
+}
+
+.chew{
+    background-image: url(chew.jpg);
+}
+
+.kylo{
+    background-image: url(kylo.jpg);
+}
+
+.leia{
+    background-image: url(leia.png);
+}
+
+.simba{
+    background-image: url(simba.jpg);
+}
+
+.nala{
+    background-image: url(nala.jpg);
+}
+
+.timon{
+    background-image: url(timon.jpg);
+}
+
+.pumba{
+    background-image: url(pumba.jpg);
+}
+
+.scar{
+    background-image: url(scar.jpg);
+}
+
+.rafiki{
+    background-image: url(rfiki.jpg);
+}
+
+.zazu{
+    background-image: url(zazu.jpg);
+}
+
+.mufasa{
+    background-image: url(Mufasa.jpg);
+}
+
+.elsa{
+    background-image: url(elsa.jpg);
+}
+
+.anna{
+    background-image: url(anna.jpg);
+}
+
+.kriss{
+    background-image: url(kris.jpg);
+}
+
+.olaf{
+    background-image: url(olaf.jpg);
+}
+
+.aza{
+    background-image: url(aza.jpg);
+}
